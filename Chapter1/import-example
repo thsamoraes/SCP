@@ -1,3 +1,9 @@
+print("Hello World!")
+
 import func
 
-func.F1(2)
+a = int(input("Digite um número inteiro: "))
+
+b = func.F1(a)
+
+print("O dobro de",a,"é",b)
