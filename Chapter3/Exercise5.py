@@ -39,7 +39,7 @@ p = 0
 L = []
 
 for p in range (1000):
-    z = abs(u[p] - td[p])
+    z = abs(u[p] - np.exp(a*td[p]))
     L.append(z)
 
 plt.plot(td,L)
